@@ -33,7 +33,7 @@ app.use(bodyParser.urlencoded(
                 res.writeHead(200, { 'Content-Type': 'text/html' });
                 res.write(pgResp);
             }
-            res.end();
+            
         });
     }});
 
